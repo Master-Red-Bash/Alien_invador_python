@@ -14,6 +14,7 @@ class Alien(Sprite):
 
         # Load the alien image and set its rect attribute
         self.image = pygame.image.load('/Users/luisfernando/Pictures/Kirby.bmp')
+
         self.rect = self.image.get_rect()
 
         #random_number = randint(-10, 10)
